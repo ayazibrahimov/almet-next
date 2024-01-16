@@ -1,0 +1,45 @@
+.container {
+  margin-top: 180px;
+  padding: 0 60px;
+}
+
+.text {
+  color: #fff;
+
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 42px;
+}
+
+
+@media screen and (max-width: 1200px){
+   .text{
+    font-size: 30px;
+   }
+}
+
+@media screen and (max-width: 992px){
+  
+  .container {
+    margin-top: 250px;
+    padding: 0 30px;
+  }
+  
+  .text{
+    line-height: 38px;
+    font-size: 24px;
+    line-height: 32px;
+   }
+}
+
+
+
+@media screen and (max-width: 577px){
+  .text{
+   font-size: 20px;
+   line-height: 28px;
+  }
+}

@@ -1,0 +1,62 @@
+.container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.upperParagraph{
+    color: #FFF;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 130% */
+text-transform: uppercase;
+}
+
+
+.sliderContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sliderContainerSlider{
+    width: 75%;
+    position: relative;
+}
+
+
+@media screen and (max-width: 992px){
+    .sliderContainerSlider{
+        top: 125px;
+        right: 60px;
+    }
+}
+
+
+@media screen and (max-width: 769px){
+    .sliderContainerSlider{
+        right: 20px;
+    }
+
+    .sliderContainer{
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .sliderContainerSlider{
+        width: 90%;
+        top: 90px;
+    }
+
+    .upperParagraph{
+       font-size: 17px;
+    }
+}
+
+
+
+@media screen and (max-width: 577px){
+    .upperParagraph{
+        font-size: 14px;
+     }
+}

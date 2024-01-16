@@ -1,0 +1,21 @@
+.footerImageLogo{
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+  overflow: hidden;
+
+}
+
+
+
+
+
+@media screen and (max-width:577px){
+  .footerImageLogo{
+    width: 85px;
+    height: 85px;
+  }
+  
+}

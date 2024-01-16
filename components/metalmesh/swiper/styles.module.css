@@ -1,0 +1,21 @@
+.imageContainerSize{
+    height: 600px;
+}
+
+@media screen and (max-width: 1200px){
+     .imageContainerSize{
+         height: 500px;
+      }
+}
+
+
+@media screen and (max-width: 769px){
+    .imageContainerSize{
+        height: 400px;
+     }
+}
+@media screen and (max-width: 577px){
+    .imageContainerSize{
+        height: 300px;
+     }
+}

@@ -1,0 +1,186 @@
+.container {
+  position: absolute;
+  z-index: 111;
+  color: #fff;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -55%);
+}
+
+.info {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.line1 {
+  /* width: 100%;
+    height: 100%; */
+  border-radius: 50%;
+  position: absolute;
+  width: 330px;
+  height: 327px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-46%, -50%);
+  border-radius: 50%;
+  z-index: 111;
+}
+
+.line2 {
+  border-radius: 50%;
+  position: absolute;
+  width: 330px;
+  height: 327px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 111;
+}
+.line3 {
+  position: absolute;
+  width: 330px;
+  height: 327px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-54%, -50%);
+  border-radius: 50%;
+  z-index: 111;
+}
+
+.image1 {
+  animation: 32s round1 1s infinite linear;
+}
+
+.image2 {
+  animation: 30s round1 0.8s infinite;
+}
+
+.image3 {
+  animation: 28s round1 0.9s infinite;
+}
+
+@keyframes round1 {
+  0% {
+    rotate: 0deg;
+  }
+  50% {
+    rotate: 170deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
+.textMiddle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 125% */
+  text-transform: uppercase;
+}
+
+.styleRectangleSize {
+  position: relative;
+  width: 504px;
+  height: 504px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 769px) {
+  .info {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .styleRectangleSize {
+    width: 450px;
+    height: 450px;
+  }
+
+  .line1 {
+    width: 303px;
+    height: 300px;
+  }
+  .line2 {
+    width: 303px;
+    height: 300px;
+  }
+  .line3 {
+    width: 303px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 577px) {
+
+  .info {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+
+  .styleRectangleSize {
+    width: 350px;
+    height: 350px;
+  }
+
+  .line1 {
+    width: 233px;
+    height: 230px;
+  }
+  .line2 {
+    width: 233px;
+    height: 230px;
+  }
+  .line3 {
+    width: 233px;
+    height: 230px;
+  }
+
+
+  .textMiddle{
+    font-size: 22px;
+  }
+
+
+}
+
+
+@media screen and (max-width:400px){
+  
+  .styleRectangleSize {
+    width: 300px;
+    height: 300px;
+  }
+
+
+  .line1 {
+    width: 203px;
+    height: 200px;
+  }
+  .line2 {
+    width: 203px;
+    height: 200px;
+  }
+  .line3 {
+    width: 203px;
+    height: 200px;
+  }
+
+
+}
+

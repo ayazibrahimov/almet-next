@@ -1,0 +1,12 @@
+.container {
+    text-align: start;
+}
+
+.container .title {
+  color: #e1e8ee;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
